@@ -1,0 +1,12 @@
+include AUTHORS
+include LICENSE
+include DESCRIPTION
+include CHANGELOG.txt
+include README.md
+include README.rst
+graft adminlang
+global-exclude *.orig *.pyc *.log *.swp
+prune adminlang/tests/coverage
+prune adminlang/.ropeproject
+recursive-include adminlang/templates *
+recursive-include docs *
