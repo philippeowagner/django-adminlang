@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.egg-info/
 *.pyc
 *coverage/
@@ -6,3 +7,9 @@ dist/
 docs/_build/
 app_media/
 app_static/
+=======
+*.log
+*.pot
+*.pyc
+local_settings.py
+>>>>>>> cd0d59b34301548989b0e3290f5eabc5fa35a301

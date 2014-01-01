@@ -31,10 +31,7 @@ import os
 from setuptools import setup, find_packages
 import adminlang as app
 
-
-dev_requires = [
-    'flake8',
-]
+ 
 
 install_requires = [
     'django',
@@ -60,8 +57,5 @@ setup(
     url="https://github.com/philippeowagner/django-adminlang",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=install_requires,
-    extras_require={
-        'dev': dev_requires,
-    },
+    install_requires=install_requires
 )
