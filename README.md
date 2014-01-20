@@ -12,20 +12,14 @@ Installation
 
 To get the latest stable release from PyPi
 
-.. code-block:: bash
-
-    pip install django-adminlang
+    TODO pip install django-adminlang
 
 To get the latest commit from GitHub
-
-.. code-block:: bash
 
     pip install -e git+git://github.com/philippeowagner/django-adminlang.git#egg=adminlang-master
 
 
 Add ``adminlang`` to your ``INSTALLED_APPS``
-
-.. code-block:: python
 
     INSTALLED_APPS = (
         ...,
