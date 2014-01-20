@@ -32,3 +32,11 @@ Add ``adminlang`` to your ``INSTALLED_APPS``
         'adminlang',
     )
 
+	
+You can add exclude paths by adding them to the ``ADMIN_LANGUAGE_EXCLUDE_PATH_PATTERNS`` list. ``/admin/cms/page/`` is there by default to bypass the ``LanguageError: Language not found: en`` when using django CMS.
+
+.. code-block:: python
+
+	ADMIN_LANGUAGE_EXCLUDE_PATH_PATTERNS = ['/admin/cms/page/', ]
+	
+	
